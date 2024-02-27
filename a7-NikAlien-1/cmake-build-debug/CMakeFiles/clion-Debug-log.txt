@@ -1,4 +1,36 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1 -B /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - broken
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a99b3 && [1/2] Building C object CMakeFiles/cmTC_a99b3.dir/testCCompiler.c.o
+    FAILED: CMakeFiles/cmTC_a99b3.dir/testCCompiler.c.o 
+    /usr/bin/cc   -arch arm64 -o CMakeFiles/cmTC_a99b3.dir/testCCompiler.c.o -c /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+    You have not agreed to the Xcode license agreements. Please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode and Apple SDKs license.
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug/CMakeFiles/CMakeError.log".
