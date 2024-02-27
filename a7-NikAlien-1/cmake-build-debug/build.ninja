@@ -1,0 +1,217 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: a7_NikAlien_1
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target a7_NikAlien_1
+
+
+#############################################
+# Order-only phony target for a7_NikAlien_1
+
+build cmake_object_order_depends_target_a7_NikAlien_1: phony || CMakeFiles/a7_NikAlien_1.dir
+
+build CMakeFiles/a7_NikAlien_1.dir/Domain/Dog.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain/Dog.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/Domain/Dog.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/Domain
+
+build CMakeFiles/a7_NikAlien_1.dir/Repository/Repo.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository/Repo.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/Repository/Repo.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/Repository
+
+build CMakeFiles/a7_NikAlien_1.dir/Service/Service.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service/Service.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/Service/Service.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/Service
+
+build CMakeFiles/a7_NikAlien_1.dir/UI/UIAdmin.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI/UIAdmin.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/UI/UIAdmin.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/UI
+
+build CMakeFiles/a7_NikAlien_1.dir/UI/UIMain.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI/UIMain.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/UI/UIMain.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/UI
+
+build CMakeFiles/a7_NikAlien_1.dir/UI/UIUser.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI/UIUser.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/UI/UIUser.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/UI
+
+build CMakeFiles/a7_NikAlien_1.dir/main.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/main.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir
+
+build CMakeFiles/a7_NikAlien_1.dir/Repository/FileAdoptList.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository/FileAdoptList.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/Repository/FileAdoptList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/Repository
+
+build CMakeFiles/a7_NikAlien_1.dir/Repository/CSVAdoptList.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository/CSVAdoptList.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/Repository/CSVAdoptList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/Repository
+
+build CMakeFiles/a7_NikAlien_1.dir/Repository/HTMLAdoptList.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository/HTMLAdoptList.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/Repository/HTMLAdoptList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/Repository
+
+build CMakeFiles/a7_NikAlien_1.dir/Domain/DogValidator.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain/DogValidator.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/Domain/DogValidator.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/Domain
+
+build CMakeFiles/a7_NikAlien_1.dir/Repository/RepoException.cpp.o: CXX_COMPILER__a7_NikAlien_1_Debug /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository/RepoException.cpp || cmake_object_order_depends_target_a7_NikAlien_1
+  DEP_FILE = CMakeFiles/a7_NikAlien_1.dir/Repository/RepoException.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics -std=gnu++14
+  INCLUDES = -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Domain -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Repository -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Service -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/Tests -I/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/UI
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/a7_NikAlien_1.dir/Repository
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target a7_NikAlien_1
+
+
+#############################################
+# Link the executable a7_NikAlien_1
+
+build a7_NikAlien_1: CXX_EXECUTABLE_LINKER__a7_NikAlien_1_Debug CMakeFiles/a7_NikAlien_1.dir/Domain/Dog.cpp.o CMakeFiles/a7_NikAlien_1.dir/Repository/Repo.cpp.o CMakeFiles/a7_NikAlien_1.dir/Service/Service.cpp.o CMakeFiles/a7_NikAlien_1.dir/UI/UIAdmin.cpp.o CMakeFiles/a7_NikAlien_1.dir/UI/UIMain.cpp.o CMakeFiles/a7_NikAlien_1.dir/UI/UIUser.cpp.o CMakeFiles/a7_NikAlien_1.dir/main.cpp.o CMakeFiles/a7_NikAlien_1.dir/Repository/FileAdoptList.cpp.o CMakeFiles/a7_NikAlien_1.dir/Repository/CSVAdoptList.cpp.o CMakeFiles/a7_NikAlien_1.dir/Repository/HTMLAdoptList.cpp.o CMakeFiles/a7_NikAlien_1.dir/Domain/DogValidator.cpp.o CMakeFiles/a7_NikAlien_1.dir/Repository/RepoException.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = CMakeFiles/a7_NikAlien_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = a7_NikAlien_1
+  TARGET_PDB = a7_NikAlien_1.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1 -B/Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/cmake-build-debug
+
+build all: phony a7_NikAlien_1
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/carpnicoleta/Documents/GitHub/a7-NikAlien-1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
