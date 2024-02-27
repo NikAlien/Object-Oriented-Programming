@@ -1,0 +1,5 @@
+Abc,cold,1,hfh
+Df,flees,4,gbfb
+Gin,flees,3,throat hurt,ellipse
+Membro,,3,skin-spots,bleeding
+Xhospho,fungi,1,poison,hallucination
