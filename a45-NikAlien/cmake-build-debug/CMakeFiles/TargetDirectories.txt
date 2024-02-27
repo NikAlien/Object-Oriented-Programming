@@ -1,0 +1,3 @@
+/Users/carpnicoleta/Documents/GitHub/a45-NikAlien/cmake-build-debug/CMakeFiles/a45_NikAlien.dir
+/Users/carpnicoleta/Documents/GitHub/a45-NikAlien/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/carpnicoleta/Documents/GitHub/a45-NikAlien/cmake-build-debug/CMakeFiles/rebuild_cache.dir
