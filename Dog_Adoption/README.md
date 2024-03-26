@@ -1,20 +1,19 @@
-# Assignment 08-09
+# Dog Adoption DataBase
 
-## Requirements
-- Create a graphical user interface using the Qt framework for the problem you have been working on (A04-05, A06, A07).
+* This project mimics the concept of a database for an adoption center of dogs. It was created in C++ using Qt for GUI. The app has two interfaces that can be accessed at its start, the administrator and the client side. The administrator can add, delete, and update the data. The client has the option of viewing all dogs and saving the ones they like to adopt. Every change is saved while using the app and also after it’s closed.
 
-## Week 11
-- Implement the interface design, without using the Qt Designer. Use layouts to design your interface.
-- The list or table displaying the repository entities in administrator mode should be populated using your input file. 
+* The user has theoption of seeing their adotpion list as CSV file or a HTML file
+<img width="180" alt="Captură de ecran din 2024-03-26 la 08 35 36" src="https://github.com/NikAlien/Object-Oriented-Programming/assets/115424518/5cc5aad4-f81f-4dcc-b43e-7980a389186f">
 
-## Week 13 
--	All functionalities must be available through the GUI. You may use Qt Designer, if you want to change the initial design of your GUI.
--	The functionality of the application must be the same (including the one-by-one iteration of objects for the user mode).
+* The user can go through the admin and user interface. All changes are propagated between the 2.
+<img width="180" alt="Captură de ecran din 2024-03-26 la 08 35 46" src="https://github.com/NikAlien/Object-Oriented-Programming/assets/115424518/685e0d4b-0334-4019-b9fc-9d86917ab93f">
 
-## Bonus possibility (0.2p, deadline week 13)
-Create a graphical representation of the data in your application. You have an example below: a bar chart representing the number of songs for each artist. Your representations can be a bar chart, a pie chart or another type of chart. You can even use circles or rectangles or any other geometric shapes to represent the data.
 
-Hint: You can use QPainter (https://doc.qt.io/qt-6/qpainter.html), QGraphicsScene (https://doc.qt.io/qt-6/qgraphicsscene.html) or a special widget designed for plotting and data visualisation – QCustomPlot (http://www.qcustomplot.com/).
+* The admin can read, create, update and delete all dogs. Validations are put in place for input.
+<img width="661" alt="Captură de ecran din 2024-03-26 la 08 36 01" src="https://github.com/NikAlien/Object-Oriented-Programming/assets/115424518/e13eee0f-837b-4559-bad3-7db36f6db9ce">
 
-<img width="704" alt="Screenshot 2021-04-17 at 20 24 04" src="https://user-images.githubusercontent.com/25611695/115121335-df0f7e00-9fba-11eb-8839-40cd55da1d69.png">
+* The user can see their adoption list in the app but also as the originally chosen file. They can filter the dogs in the DB and look what dogs are available for their requirements.
+<img width="499" alt="Captură de ecran din 2024-03-26 la 08 36 28" src="https://github.com/NikAlien/Object-Oriented-Programming/assets/115424518/c3eb6b88-d567-407c-ba21-96b63cb48522">
 
+* After pressing search, the user gets the filtered dogs that they can look through and add to their adoption list or take out.
+<img width="599" alt="Captură de ecran din 2024-03-26 la 08 36 48" src="https://github.com/NikAlien/Object-Oriented-Programming/assets/115424518/246291e6-2896-413c-abd1-70d34375a915">
